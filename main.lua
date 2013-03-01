@@ -12,6 +12,7 @@ local db = require("db")
 db:initialize{}
 db:printStuff{}
 
+print("test")
 --local function onSystemEvent( event )
 --        if( event.type == "applicationExit" ) then              
 --            db:close()
