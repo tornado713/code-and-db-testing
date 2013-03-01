@@ -25,7 +25,7 @@ end
 function initialize()
     checkDataBaseState{}
     
-    rows = database:nrows([[ SELECT * FROM item ]])
+    rows = database:nrows(data_SelectAllFromItem)
     
     if (rows ~= "0") then
         database:execute(
